@@ -1,0 +1,27 @@
+{
+    "execute":
+    [
+        {
+            "id": 1,
+            "language": "javascript",
+            "code": "fmt.Println(\"Hello, world!\")",
+            "result": [
+                {
+                    "status": "success",
+                    "output": "Hello, world!\n"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "language": "javascript",
+            "code": "fmt.Println_",
+            "result": [
+                {
+                    "status": "error",
+                    "error": "SyntaxError: Unexpected token"
+                }
+            ]
+        }
+    ]
+}
