@@ -37,7 +37,7 @@ function App() {
             code: code,
         },
       };
-      const response = await axios.get('http://localhost:3000/execute', config);
+      const response = await axios.get('/api/execute', config);
       const { status, output, error } = response.data[0].result[0];
       if (status === 'success') {
         setOutput(output);
